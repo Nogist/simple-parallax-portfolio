@@ -185,7 +185,7 @@ export default function Projects () {
                   <AiOutlineArrowRight />
                 </span>
                  <span>
-                    <p className=' whitespace-nowrap'>THE AWAKENED WOMAN</p>
+                    <p className='whitespace-nowrap'>THE AWAKENED WOMAN</p>
                     <AiOutlineArrowRight />
                   </span>
                 </div>
@@ -217,7 +217,7 @@ export default function Projects () {
           speed={2.7}
         >
           <div className='flex flex-col items-center'>
-            <h1 className='text-[#8CB9B4] mb-[117px]'>Let's Talk</h1>
+            <h1 className='blab mb-[117px]'>Let's Talk</h1>
             <p className='border-white border py-[12px] px-[24px] text-white'>Contact Me</p>
           </div>
         </ParallaxLayer>

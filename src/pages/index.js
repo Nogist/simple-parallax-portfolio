@@ -74,8 +74,8 @@ export default function Projects () {
               speed={1.4} 
               onClick={() => ref.current.scrollTo(3)}
             >
-              <div className='text-[green] '>
-                <h1 className='pl-[100px]'>Ui</h1>
+              <div className='text-black '>
+                <h1 className='pl-[150px]'>Ui</h1>
                 <h1 className='text-center'>Designer</h1>
               </div>
           </ParallaxLayer>
@@ -85,8 +85,8 @@ export default function Projects () {
               speed={1} 
               onClick={() => ref.current.scrollTo(3)}
             >
-              <div className='text-[green] '>
-                <h1 className='pl-[100px]'>Ux</h1>
+              <div className='text-black '>
+                <h1 className='pl-[150px]'>Ux</h1>
                 <h1 className='text-center'>Designer</h1>
               </div>
           </ParallaxLayer>
@@ -217,7 +217,7 @@ export default function Projects () {
           speed={2.7}
         >
           <div className='flex flex-col items-center'>
-            <h1 className='text-[#8CB9B4] mb-[117px]'>Let's Talk</h1>
+            <h1 className='blab mb-[117px]'>Let's Talk</h1>
             <p className='border-white border py-[12px] px-[24px] text-white'>Contact Me</p>
           </div>
         </ParallaxLayer>

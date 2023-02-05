@@ -19,6 +19,28 @@
   border-radius: 50%;
   transform: rotate(-20deg);
 }
+.blab {
+  color: #8CB9B4;
+}
+.blue {
+  background: blue;
+}
+.bord {
+  border-bottom: none;
+}
+.clue{
+  color: #E84C88;
+}
+.wei {
+  width: 556px;
+}
+.mtp {
+  margin-top: 500px;
+}
+.hgo {
+  width: 140px;
+  height: 140px;
+}
 * {
   box-sizing: border-box;
   padding: 0;
