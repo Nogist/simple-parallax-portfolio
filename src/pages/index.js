@@ -56,7 +56,7 @@ export default function Projects () {
             speed={0.45}
             onClick={() => ref.current.scrollTo(4)}
           >
-            <div>
+            <div className='w-full h-full flex flex-col justify-center'>
               <div className='text-[#8CB9B4] '>
                 <h1 className='pl-[150px]'>User</h1>
                 <h1 className='text-center'>Centered</h1>
