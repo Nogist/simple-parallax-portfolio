@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&display=swap');
+
+:root {
+  --font-family: 'Cinzel', serif;
+
+}
+.point {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+
+}
+.clip {
+  width: 400px;
+  border-radius: 50%;
+  transform: rotate(-20deg);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  cursor: pointer;
+  font-family: 'Cinzel', serif !important;
+}
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+h1 {
+  font-family: var(--font-family) !important;
+  font-size: 160px;
+  text-transform: uppercase;
+  font-weight: 400px;
+  line-height: 195px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.content, #bobo {
+  max-width: 2500px;
+  margin: 0 auto;
+}
+
+span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #999999;
+  padding-right: 37px;
+  
+  color: #999999;
+  letter-spacing: 1.92px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 38px;
+}
+span > P {
+  margin: 24px 0;
+}
+.view__more {
+  border-radius: 50%;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.social__media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.social__media > div {
+  width: 750px;
+}
+.social__media > div > span {
+  width: 100%;
+  padding: 0px 42px 0 48px;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 108px;
+}
+
+#br_parallex {
+  background: linear-gradient(180deg, #98B2C0 50%, #E9D7DC 100%);
+
+}
+#bg_parallex {
+  background: linear-gradient(180deg, #CFBDE7 50.08%, #E5D5DB 100%);
+  height: 100vh !important;
+}
+.animation {
+  display: block;
+	position: relative;
+	z-index: 10;
+}
+#artback {
+  background: black;
+}
+.animation_layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+  z-index: -1;
+}
+.animation_layer.parallax {
+	position: fixed;
+}
+.animation, .animation_layer {
+	height: 100vh;
+}
+.animations {
+  height: 1000px !important;
+}
+#blo {
+  background-color: #66000000;
+  overflow: visible;
+  z-index: 99998;
+  backdrop-filter: blur(60px);
+}
+#bh {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.sentien {
+  height: 479px !important;
+}
+/* .po {
+  height: 1500px !important;
+} */
