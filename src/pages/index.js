@@ -9,13 +9,15 @@ import {AiOutlineArrowRight } from 'react-icons/ai';
 import { FiDribbble } from 'react-icons/fi';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { BsBehance } from 'react-icons/bs';
+import { useInView } from 'react-intersection-observer';
 
 export default function Projects () {
-  const ref = useRef();
+  // const ref = useRef();
+
 
   return (
     <div>
-       <Parallax pages={7} ref={ref} id='bobo'>
+       <Parallax pages={7}  id='bobo'>
         <ParallaxLayer offset={0}
             style={{
               backgroundColor: 'black',
@@ -54,7 +56,7 @@ export default function Projects () {
           <ParallaxLayer
             offset={0.15}
             speed={0.45}
-            onClick={() => ref.current.scrollTo(4)}
+           
           >
             <div className='w-full h-full flex flex-col justify-center'>
               <div className='text-[#8CB9B4] '>
@@ -72,10 +74,10 @@ export default function Projects () {
               // sticky={{ start: 1.2, end: 1.9 }}
               offset={1.0}
               speed={1.4} 
-              onClick={() => ref.current.scrollTo(3)}
+              // onClick={() => ref.current.scrollTo(3)}
             >
               <div className='text-black '>
-                <h1 className='pl-[150px]'>Ui</h1>
+              {/* <h1 className='pl-[150px]'>{! visible ? 'UI' : 'UX'}</h1> */}
                 <h1 className='text-center'>Designer</h1>
               </div>
           </ParallaxLayer>
@@ -83,7 +85,7 @@ export default function Projects () {
               // sticky={{ start: 1.2, end: 1.9 }}
               offset={2}
               speed={1} 
-              onClick={() => ref.current.scrollTo(3)}
+              // onClick={() => ref.current.scrollTo(3)}
             >
               <div className='text-black '>
                 <h1 className='pl-[150px]'>Ux</h1>
@@ -92,7 +94,7 @@ export default function Projects () {
           </ParallaxLayer>
           <ParallaxLayer
                 sticky={{ start: 3.15, end: 3.15   }}
-              onClick={() => ref.current.scrollTo(3)}
+              // onClick={() => ref.current.scrollTo(3)}
             >
               <div className='text-[green] w-full px-[150px] text-center bg-[black]'>
                 <p className='text-[16px] text-white'>I am a UX designer with a background in human- computer interaction. 
@@ -111,7 +113,7 @@ export default function Projects () {
         <ParallaxLayer
               offset={3.95}
               speed={0.75}
-              onClick={() => ref.current.scrollTo(1)}
+              // onClick={() => ref.current.scrollTo(1)}
             >
               <div className='text-black'>
                 <h1 className='pl-[150px]'>Selected</h1>
@@ -121,7 +123,7 @@ export default function Projects () {
         <ParallaxLayer
               offset={4.9}
               speed={1.5}
-              onClick={() => ref.current.scrollTo(1)}
+              // onClick={() => ref.current.scrollTo(1)}
             >
               <div className='mt-[150px] text-black ml-[150px] w-[556px]'>
                 <h3 className='text-[#8CB9B4] text-[56px] '>UX DESIGN</h3>
@@ -164,7 +166,7 @@ export default function Projects () {
         <ParallaxLayer
               offset={4.9}
               speed={0.75}
-              onClick={() => ref.current.scrollTo(1)}
+              // onClick={() => ref.current.scrollTo(1)}
             >
               <div className='mt-[500px] text-black float-right mr-[150px] w-[556px]'>
                 <h3 className='text-[#8CB9B4] text-[56px] text-right '>UI DESIGN</h3>
